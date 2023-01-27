@@ -27,6 +27,8 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
+void counting_sort(int *array, size_t size);
+void sort_deck(deck_node_t **deck);
 void quick_sort(int *array, size_t size);
 void swap_head(listint_t **list, listint_t *aux);
 void swap_middle(listint_t *aux);
